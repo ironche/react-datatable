@@ -1,0 +1,22 @@
+{
+  "pages": {
+    "not-found": {
+      "message": "Page not found"
+    },
+    "welcome": {
+      "datatable": {
+        "title": "Github repositories",
+        "columns": {
+          "name": "Repository name",
+          "desc": "Description",
+          "lang": "Programming language",
+          "url": "Repo URL"
+        },
+        "open-link": "Open in Github",
+        "refetch": "Re-fetch data",
+        "debug": "Log state",
+        "filter-by": "Search by column"
+      }
+    }
+  }
+}

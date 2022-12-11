@@ -1,0 +1,16 @@
+{
+  "name": "react-datatable-docker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "docker-compose up --build -d",
+    "stop": "docker-compose down",
+    "purge": "docker rmi react-datatable_client && npm run docker:ls",
+    "tap:client": "docker exec -it react-datatable-client sh",
+    "docker:all:stop": "docker stop $(docker ps -aq)",
+    "docker:all:rm": "docker rm $(docker ps -aq)",
+    "docker:all:rmi": "docker rmi $(docker images -q)",
+    "docker:all:purge": "npm run docker:all:stop && npm run docker:all:rm && npm run docker:all:rmi",
+    "docker:ls": "docker ps -a && echo && docker images"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "data-table": {
+    "empty-table": {
+      "title": "No results were found",
+      "description": "Please, try another search."
+    },
+    "loading-table": {
+      "title": "Loading table data",
+      "description": "This might take a few moments."
+    },
+    "table-header": {
+      "search": "Search"
+    },
+    "pagination": {
+      "range": "{{from}} - {{to}} of {{total}}",
+      "pageSize": "Results per page"
+    }
+  }
+}
